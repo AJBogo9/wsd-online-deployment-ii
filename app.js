@@ -2,7 +2,7 @@ import { serve } from "./deps.js";
 import { configure, renderFile } from "./deps.js";
 
 configure({
-    views: `${Deno.cwd()}/views/`,
+    views: `${Deno.cwd()}/Views/`,
 });
 
 const responseDetails = {
